@@ -1,0 +1,30 @@
+{
+  "name": "gulp-send-mail",
+  "version": "0.0.1",
+  "description": "gulp plugin to send mail to collaborator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/femxd/gulp-send-mail.git"
+  },
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "send-mail",
+    "mail"
+  ],
+  "author": "allanfish",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/femxd/gulp-send-mail/issues"
+  },
+  "homepage": "https://github.com/femxd/gulp-send-mail#readme",
+  "dependencies": {
+    "gulp-util": "^3.0.6",
+    "request": "^2.61.0",
+    "through2": "^2.0.0"
+  }
+}
